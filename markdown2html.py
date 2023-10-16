@@ -1,11 +1,15 @@
 #!/usr/bin/python3
+"""
+This script converts a markdown file to HTML. It takes a argument(a string i.e. the markdown file)
+    Usage: 
+        ./markdown2html.py README.md
+"""
 
 from sys import argv
 import sys
 import os
 
 
-# argv_num = len(argv) -1
 if __name__ == "__main__":
 
     if len(argv) != 3:
