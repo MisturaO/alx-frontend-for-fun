@@ -13,7 +13,7 @@ import os
 if __name__ == "__main__":
 
     if len(argv) != 3:
-        sys.stderr.write('Usage: ./markdown2html.py README.md\n')
+        sys.stderr.write('Usage: ./markdown2html.py README.md README.html \n')
         sys.exit(1)
 
     markdown_file = argv[1]
